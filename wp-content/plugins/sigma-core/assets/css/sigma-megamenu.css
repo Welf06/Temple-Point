@@ -1,0 +1,351 @@
+/* Megamenu Layout */
+
+.site-header.header-layout-1>div,
+.site-header.header-layout-2>div {
+    position: relative;
+}
+
+.site-header .navbar-nav .sigma_mega-menu-item {
+    position: static;
+}
+
+.sigma_mega-menu-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    width: 100%;
+    list-style: none;
+    border-radius: 0;
+    -webkit-box-shadow: 1px 1px 33px 0px rgba(83, 95, 159, 0.15);
+    box-shadow: 1px 1px 33px 0px rgba(83, 95, 159, 0.15);
+    background-color: #fff;
+    background-clip: padding-box;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s linear 0s;
+    padding: 0 15px;
+    transition: all .3s linear 0s;
+    pointer-events: none;
+}
+
+.site-header .navbar-nav .sigma_mega-menu-item:hover>.sigma_mega-menu-wrapper,
+.sigma_aside .sigma_mega-menu-item .sigma_mega-menu-wrapper,
+.aside-inner .sigma_mega-menu-item .sigma_mega-menu-wrapper {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.aside-collapse.mobile-aside .aside-inner .sigma_mega-menu-item .sigma_mega-menu-wrapper ul.menu {
+    display: block;
+    background: transparent;
+}
+
+.site-header .sigma_mega-menu-item ul.menu {
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+    box-shadow: none;
+    width: auto;
+    line-height: 1.6;
+    position: relative;
+}
+
+.site-header .sigma_mega-menu-item ul.menu li {
+    padding: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 0;
+}
+
+.site-header .sigma_mega-menu-item ul.menu li a {
+    line-height: 1.6;
+    font-size: 14px;
+    height: auto;
+    color: #767e88;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 10px 0;
+    text-transform: none;
+}
+
+.site-header .sigma_mega-menu-item ul.menu li a i {
+    width: 20px;
+}
+
+.site-header .sigma_mega-menu-item ul.menu li .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    min-width: auto;
+    left: auto;
+    top: auto;
+    margin: 0;
+}
+
+.site-header .sigma_mega-menu-item ul.menu li a:hover {
+    color: #7E4555;
+    background-color: transparent;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span {
+    margin-left: 5px;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span.badge,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span.badge {
+    margin-left: 10px;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span.badge,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span.badge {
+    margin-left: 5px;
+    font-weight: 700;
+    color: #7E4555;
+    background: none;
+    font-size: 12px;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span.badge.badge-secondary,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span.badge.badge-secondary {
+    color: #DB4242;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span.badge.badge-warning,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span.badge.badge-warning {
+    color: #ffc107;
+}
+
+.site-header div .sigma_mega-menu-item ul.menu li a span.badge.badge-danger,
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a span.badge.badge-danger {
+    color: #dc3545;
+}
+
+/* Megamenu typography and menus */
+
+.sigma_mega-menu-wrapper .widgettitle,
+.sigma_mega-menu-wrapper .wpb_heading {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.sigma_mega-menu-wrapper .widgettitle {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+}
+
+.sigma_mega-menu-wrapper .widget {
+    padding: 0;
+    background-color: transparent;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 30px;
+    background: #f3f3f338;
+    border: 0;
+    border-radius: 0;
+    border: 1px solid transparent;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+    border-bottom-color: #ddd;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a span:not(.sigma_info-icon) {
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a small {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item:last-child a {
+    border-bottom-color: transparent;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.active,
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a:hover {
+    border: 1px solid #f3f3f3;
+    border-right: 0;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a .sigma_info-icon svg {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.active i {
+    color: #7E4555;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a i {
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item {
+    width: 100%;
+}
+
+.sigma_megamenu_tabs_wrapper {
+    margin-bottom: 30px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.custom-link-tab {
+    padding: 29px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.custom-link-tab .sigma_info-icon i {
+    line-height: 1.2;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.custom-link-tab i {
+    font-weight: 500;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.custom-link-tab .sigma_info-icon svg,
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a .sigma_info-icon svg {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a:hover .sigma_info-icon svg,
+.sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a.active .sigma_info-icon svg {
+    fill: #7E4555;
+}
+
+/* Megamenu Tab for mobile view */
+
+.sigma_aside .sigma_mega-menu-item .sigma_mega-menu-wrapper,
+.aside-inner .sigma_mega-menu-item .sigma_mega-menu-wrapper {
+    position: relative;
+    display: none;
+}
+
+.sigma_aside .sigma_mega-menu-item .sigma_mega-menu-wrapper .sigma_megamenu_tabs_wrapper {
+    margin-bottom: 0;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item {
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item .sigma_info-icon svg {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item small {
+    margin-left: 10px;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item.active,
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item:hover {
+    border-bottom: 2px solid #7E4555;
+    color: #7E4555;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item.active .sigma_info-icon svg,
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item:hover .sigma_info-icon svg {
+    fill: #7E4555;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .nav-link-tab-item:hover {
+    cursor: pointer;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a {
+    line-height: 1.6;
+    font-size: 14px;
+    height: auto;
+    color: #767e88;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 10px 0;
+    text-transform: none;
+}
+
+.m-megamenu .m-megamenu-content-wrapper .sigma_megamenu_menu_wrapper ul.menu li.menu-item a:hover {
+    color: #7E4555;
+}
+
+.m-megamenu {
+    display: none !important;
+}
+
+.m-megamenu-collapse-card .content {
+    display: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1200px) {
+    /* .sigma_mega-menu-wrapper {
+    display: none;
+  } */
+    .sigma_megamenu-tab-item.style-1 .nav-tabs .nav-item a {
+        padding: 15px 10px;
+    }
+    .sigma_mega-menu-wrapper .widgettitle,
+    .sigma_mega-menu-wrapper .wpb_heading {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 991px) {
+    .d-megamenu {
+        display: none !important;
+    }
+    .m-megamenu {
+        display: block !important;
+    }
+}

@@ -1,0 +1,787 @@
+/* Give Forms */
+
+#give-recurring-form .form-row input[type=email],
+#give-recurring-form .form-row input[type=password],
+#give-recurring-form .form-row input[type=tel],
+#give-recurring-form .form-row input[type=text],
+#give-recurring-form .form-row input[type=url],
+#give-recurring-form .form-row select,
+#give-recurring-form .form-row textarea,
+form.give-form .form-row input[type=email],
+form.give-form .form-row input[type=password],
+form.give-form .form-row input[type=tel],
+form.give-form .form-row input[type=text],
+form.give-form .form-row input[type=url],
+form.give-form .form-row select,
+form.give-form .form-row textarea,
+form[id*=give-form] .form-row input[type=email],
+form[id*=give-form] .form-row input[type=password],
+form[id*=give-form] .form-row input[type=tel],
+form[id*=give-form] .form-row input[type=text],
+form[id*=give-form] .form-row input[type=url],
+form[id*=give-form] .form-row select,
+form[id*=give-form] .form-row textarea {
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    color: #848486;
+    line-height: normal;
+    padding: 0px 15px;
+    font-weight: 400;
+    background: #fff;
+    border: 2px solid #efefef;
+    border-radius: 0;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    border-radius: 10px;
+}
+
+#give-recurring-form .form-row input[type=email]:focus,
+#give-recurring-form .form-row input[type=password]:focus,
+#give-recurring-form .form-row input[type=tel]:focus,
+#give-recurring-form .form-row input[type=text]:focus,
+#give-recurring-form .form-row input[type=url]:focus,
+#give-recurring-form .form-row select:focus,
+#give-recurring-form .form-row textarea:focus,
+form.give-form .form-row input[type=email]:focus,
+form.give-form .form-row input[type=password]:focus,
+form.give-form .form-row input[type=tel]:focus,
+form.give-form .form-row input[type=text]:focus,
+form.give-form .form-row input[type=url]:focus,
+form.give-form .form-row select:focus,
+form.give-form .form-row textarea:focus,
+form[id*=give-form] .form-row input[type=email]:focus,
+form[id*=give-form] .form-row input[type=password]:focus,
+form[id*=give-form] .form-row input[type=tel]:focus,
+form[id*=give-form] .form-row input[type=text]:focus,
+form[id*=give-form] .form-row input[type=url]:focus,
+form[id*=give-form] .form-row select:focus,
+form[id*=give-form] .form-row textarea:focus {
+    background-color: #F7F7F7;
+    border: 1px solid #7E4555;
+}
+
+#give-recurring-form .form-row textarea,
+form.give-form .form-row textarea,
+form[id*=give-form] .form-row textarea {
+    height: auto;
+    padding: 15px;
+}
+
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label,
+form[id*=give-form] .give-donation-amount .give-currency-symbol.give-currency-position-before {
+    background-color: #db4242;
+    color: #fff;
+}
+
+form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+    background-color: #fff;
+}
+
+form[id*=give-form] .give-donation-amount .give-currency-symbol,
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+    font-size: 16px;
+}
+
+#give-recurring-form h3.give-section-break,
+#give-recurring-form h4.give-section-break,
+#give-recurring-form legend,
+form.give-form h3.give-section-break,
+form.give-form h4.give-section-break,
+form.give-form legend,
+form[id*=give-form] h3.give-section-break,
+form[id*=give-form] h4.give-section-break,
+form[id*=give-form] legend {
+    font-size: 16px;
+    color: #DB4242;
+}
+
+.widget #give-recurring-form .form-row input[type=email]:focus,
+.widget #give-recurring-form .form-row input[type=password]:focus,
+.widget #give-recurring-form .form-row input[type=tel]:focus,
+.widget #give-recurring-form .form-row input[type=text]:focus,
+.widget #give-recurring-form .form-row input[type=url]:focus,
+.widget #give-recurring-form .form-row select:focus,
+.widget #give-recurring-form .form-row textarea:focus,
+.widget form.give-form .form-row input[type=email]:focus,
+.widget form.give-form .form-row input[type=password]:focus,
+.widget form.give-form .form-row input[type=tel]:focus,
+.widget form.give-form .form-row input[type=text]:focus,
+.widget form.give-form .form-row input[type=url]:focus,
+.widget form.give-form .form-row select:focus,
+.widget form.give-form .form-row textarea:focus,
+.widget form[id*=give-form] .form-row input[type=email]:focus,
+.widget form[id*=give-form] .form-row input[type=password]:focus,
+.widget form[id*=give-form] .form-row input[type=tel]:focus,
+.widget form[id*=give-form] .form-row input[type=text]:focus,
+.widget form[id*=give-form] .form-row input[type=url]:focus,
+.widget form[id*=give-form] .form-row select:focus,
+.widget form[id*=give-form] .form-row textarea:focus {
+    background-color: #fff;
+}
+
+[id*=give-form].give-fl-form input.give-fl-input,
+[id*=give-form].give-fl-form select.give-fl-select,
+[id*=give-form].give-fl-form textarea.give-fl-textarea {
+    font-size: 14px;
+}
+
+/*==== Archive ====*/
+
+.sigma-donation-style-1,
+.sigma-donation-style-3,
+.sigma-donation-style-4 {
+    border: 1px solid #efefef;
+    transition: .3s;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.sigma-donation-style-1:hover,
+.sigma-donation-style-3:hover,
+.sigma-donation-style-4:hover {
+    transform: translateY(-3px);
+}
+
+.sigma-donation-style-1 .donation-post-thumb,
+.sigma-donation-style-3 .donation-post-thumb,
+.sigma-donation-style-4 .donation-post-thumb {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.sigma-donation-style-1 .donation-post-thumb img,
+.sigma-donation-style-3 .donation-post-thumb img,
+.sigma-donation-style-4 .donation-post-thumb img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sigma-donation-style-1 .donation-post-thumb::before,
+.sigma-donation-style-3 .donation-post-thumb::before,
+.sigma-donation-style-4 .donation-post-thumb::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sigma-donation-style-1:hover .donation-post-thumb::before,
+.sigma-donation-style-3:hover .donation-post-thumb::before,
+.sigma-donation-style-4:hover .donation-post-thumb::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sigma-donation-style-1 .sigma_donation-body,
+.sigma-donation-style-3 .sigma_donation-body,
+.sigma-donation-style-4 .sigma_donation-body {
+    padding: 30px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .sigma_donation-title,
+.sigma-donation-style-3 .sigma_donation-body .sigma_donation-title,
+.sigma-donation-style-4 .sigma_donation-body .sigma_donation-title {
+    font-size: 24px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .sigma_donation-excerpt,
+.sigma-donation-style-3 .sigma_donation-body .sigma_donation-excerpt,
+.sigma-donation-style-4 .sigma_donation-body .sigma_donation-excerpt {
+    margin-bottom: 0;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .signa_donation-collection,
+.sigma-donation-style-3 .sigma_donation-body .signa_donation-collection,
+.sigma-donation-style-4 .signa_donation-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .signa_donation-collection p,
+.sigma-donation-style-3 .sigma_donation-body .signa_donation-collection p,
+.sigma-donation-style-4 .signa_donation-collection p {
+    color: #44233b;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .signa_donation-collection p label,
+.sigma-donation-style-3 .sigma_donation-body .signa_donation-collection p label,
+.sigma-donation-style-4 .signa_donation-collection p label {
+    color: #777;
+    font-weight: 600;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress,
+.sigma-donation-style-3 .sigma_donation-body .progress,
+.sigma-donation-style-4 .progress {
+    margin-top: 35px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress,
+.sigma-donation-style-3 .sigma_donation-body .progress,
+.sigma-donation-style-4 .progress {
+    height: 8px;
+    border-radius: 0;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress,
+.sigma-donation-style-3 .sigma_donation-body .progress,
+.sigma-donation-style-4 .progress {
+    height: 8px;
+    border-radius: 0;
+    background: #efefef;
+    overflow: visible;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress .progress-bar,
+.sigma-donation-style-3 .sigma_donation-body .progress .progress-bar,
+.sigma-donation-style-4 .progress .progress-bar {
+    position: relative;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress .progress-bar span,
+.sigma-donation-style-3 .sigma_donation-body .progress .progress-bar span,
+.sigma-donation-style-4 .progress .progress-bar span {
+    position: absolute;
+    bottom: calc(100% + 13px);
+    right: -15px;
+    background: #db4242;
+    padding: 0 5px;
+    font-size: 11px;
+    height: 22px;
+    line-height: 24px;
+    border-radius: 2px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress .progress-bar span::after,
+.sigma-donation-style-3 .sigma_donation-body .progress .progress-bar span::after,
+.sigma-donation-style-4 .progress .progress-bar span::after {
+    content: '';
+    position: absolute;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #db4242;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .progress .progress-bar,
+.sigma-donation-style-3 .sigma_donation-body .progress .progress-bar,
+.sigma-donation-style-4 .progress .progress-bar {
+    background: #db4242;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .sigma_donation-btn,
+.sigma-donation-style-3 .sigma_donation-body .sigma_donation-btn,
+.sigma-donation-style-4 .sigma_donation-body .sigma_donation-btn {
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 30px;
+    background: #db4242;
+}
+
+.sigma-donation-style-1 .sigma_donation-body .sigma_donation-btn:hover,
+.sigma-donation-style-3 .sigma_donation-body .sigma_donation-btn:hover,
+.sigma-donation-style-4 .sigma_donation-body .sigma_donation-btn:hover {
+    color: #fff;
+}
+
+/*=== Style 2 ====*/
+
+.sigma_donation.sigma-donation-style-2 {
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.sigma_donation.sigma-donation-style-2 .donation-post-thumb img {
+    width: 100%;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body {
+    padding: 30px;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .signa_donation-collection p label {
+    color: #DB4242;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .signa_donation-collection p {
+    margin-bottom: 5px;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .signa_donation-collection p span {
+    font-weight: 600;
+    color: #7E4555;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .sigma_donation-btn {
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .sigma_donation-btn:hover {
+    color: #fff;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .sigma_donation_footer .signa_donation-collection {
+    display: inline-block;
+    width: calc(100% - 100px);
+    margin-right: 20px;
+    vertical-align: bottom;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .progress-rounded {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 6px solid #f1f1f1;
+    position: relative;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .progress-rounded .progress-value {
+    font-size: 18px;
+    color: #DB4242;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .progress-rounded svg {
+    width: 80px;
+    height: 80px;
+    top: -6px;
+    left: -6px;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .progress-rounded svg circle {
+    stroke-dasharray: 358.141563 358.141563;
+    stroke-dashoffset: 358.141563;
+    stroke: #7E4555;
+    stroke-linecap: square;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .progress-rounded svg circle {
+    stroke-dasharray: 232.477856 232.477856;
+}
+
+.sigma_donation.sigma-donation-style-2 .sigma_donation-body .sigma_donation_footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+/*== Style 3 ===*/
+
+.sigma-donation-style-3 .sigma_donation-body .progress {
+    margin-top: 40px;
+}
+
+.sigma-donation-style-3 {
+    box-shadow: 0px 1px 6px 2px rgb(0 0 0 / 5%);
+    border: 0;
+    background: #fff;
+}
+
+/*== Style 4 ==*/
+
+.sigma-donation-style-4 .progress {
+    margin-top: 0;
+    z-index: 11;
+    position: relative;
+}
+
+.sigma-donation-style-4 .signa_donation-collection {
+    margin-top: 0;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
+
+.sigma-donation-style-4 .signa_donation-collection p {
+    width: 50%;
+    display: block;
+}
+
+.sigma-donation-style-4 .signa_donation-collection p:first-child {
+    border-right: 1px solid #efefef;
+}
+
+.sigma-donation-style-4 .signa_donation-collection p label {
+    display: block;
+    color: #767e88;
+    font-weight: 400;
+}
+
+.sigma-donation-style-4 .signa_donation-collection p span {
+    font-size: 18px;
+    color: #7E4555;
+}
+
+.sigma-donation-style-4 .sigma_donation-body {
+    text-align: center;
+}
+
+/*== Style 5 ===*/
+
+.sigma-donation-style-5,
+.sigma-donation-style-6 {
+    border: 1px solid #efefef;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.sigma-donation-style-5 .sigma_donation-title,
+.sigma-donation-style-6 .sigma_donation-title {
+    font-size: 24px;
+}
+
+.sigma-donation-style-5 .chart-two,
+.sigma-donation-style-6 .chart-two {
+    margin: 30px auto;
+}
+
+.sigma-donation-style-5 .chart-two .counter-flex span,
+.sigma-donation-style-6 .chart-two .counter-flex span {
+    font-size: 26px;
+}
+
+.sigma-donation-style-5 .signa_donation-collection p span,
+.sigma-donation-style-6 .signa_donation-collection p span {
+    font-weight: 600;
+    color: #7E4555;
+}
+
+.sigma-donation-style-5 .sigma_donation-btn,
+.sigma-donation-style-6 .sigma_donation-btn {
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.sigma-donation-style-5 .sigma_donation-btn:hover,
+.sigma-donation-style-6 .sigma_donation-btn:hover {
+    color: #fff;
+}
+
+.sigma-donation-style-5 .sigma_donation-body h6,
+.sigma-donation-style-6 .sigma_donation-body h6 {
+    color: #7E4555;
+    margin-bottom: 50px;
+}
+
+/*== Style 6 ==*/
+
+.sigma-donation-style-6 .signa_donation-collection p {
+    margin-bottom: 0;
+}
+
+.sigma-donation-style-6 {
+    background: #fff;
+    border: 0;
+}
+
+/*=== Give details ====*/
+
+[id*=give-form].sigma_donation-details div#give-sidebar-left {
+    width: 100%;
+    float: none;
+}
+
+[id*=give-form].sigma_donation-details div.summary {
+    width: 100%;
+    float: none;
+}
+
+[id*=give-form].sigma_donation-details div.summary .give-form-title {
+    display: none;
+}
+
+#content [id*=give-form] .give-goal-progress .give-progress-bar,
+#content [id*=give-form] .give-goal-progress .give-progress-bar span {
+    border-radius: 0;
+}
+
+#content [id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount {
+    margin-bottom: 15px;
+}
+
+#content [id*=give-form].give-form #give-payment-mode-select,
+#content [id*=give-form].give-form #give_purchase_form_wrap {
+    margin-top: 30px;
+}
+
+#content form[id*=give-form] #give-final-total-wrap {
+    margin-top: 30px;
+}
+
+[id*=give-form].sigma_donation-details div.summary .give-goal-progress .raised .income,
+#content [id*=give-form] .give-goal-progress .raised .income {
+    font-size: 22px;
+    font-weight: 500;
+    color: #db4242;
+}
+
+[id*=give-form].give-form .sigma_single-donation-content-wrapper {
+    float: left;
+    width: 48%;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount .give-currency-symbol {
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 12px 26px;
+    border-top-left-radius: 10px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount .give-text-input#give-amount {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #efefef;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 47px;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount .give-hidden {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper #give-donation-level-button-wrap li .give-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border: 2px solid #efefef;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #fff;
+    color: #767e88;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper #give-donation-level-button-wrap li .give-btn.give-default-level,
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper #give-donation-level-button-wrap li .give-btn:hover {
+    background: #db4242;
+    border-color: #db4242;
+    color: #fff;
+}
+
+[id*=give-form].sigma_donation-details div.summary .give-goal-progress .give-progress-bar {
+    background: #F7F7F7;
+    border-radius: 0;
+}
+
+[id*=give-form].sigma_donation-details div.summary .give-goal-progress .raised {
+    margin-bottom: 0;
+}
+
+[id*=give-form].sigma_donation-details div.summary .give-goal-progress .give-progress-bar span {
+    border-radius: 0;
+}
+
+form[id*=give-form] #give-gateway-radio-list>li input[type=radio] {
+    width: 18px;
+    display: inline-block;
+    height: 17px;
+}
+
+form[id*=give-form] #give-gateway-radio-list>li {
+    display: flex;
+    align-items: center;
+}
+
+form[id*=give-form] #give-gateway-radio-list {
+    display: flex;
+    align-items: center;
+}
+
+[id*=give-form].sigma_donation-details fieldset#give-payment-mode-select {
+    float: right;
+    width: 48%;
+}
+
+[id*=give-form].sigma_donation-details #give_purchase_form_wrap {
+    clear: both;
+}
+
+[id*=give-form].sigma_donation-details fieldset#give-payment-mode-select .give-payment-mode-label,
+[id*=give-form].sigma_donation-details #give_purchase_form_wrap legend,
+form[id*=give-form].give-form .sigma_single-donation-content-wrapper .give-donation-amount .give-hidden,
+#content [id*=give-form].give-form #give-payment-mode-select legend,
+#content [id*=give-form].give-form #give_purchase_form_wrap legend {
+    margin: 0 0 10px;
+    border: 0;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #44233b;
+    font-weight: 700;
+    font-family: 'Lora';
+}
+
+[id*=give-form].sigma_donation-details #give_purchase_form_wrap {
+    clear: both;
+    padding-top: 30px;
+}
+
+#content form[id*=give-form] #give-final-total-wrap .give-donation-total-label,
+.sigma_donation-details form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+    padding: 5px 18px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#content form[id*=give-form] #give-final-total-wrap .give-final-total-amount,
+.sigma_donation-details form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+    height: 47px;
+    line-height: 1.2;
+    padding: 11px 25px;
+    border: 2px solid #efefef;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#content .give-submit-button-wrap #give-purchase-button,
+.sigma_donation-details .give-submit-button-wrap #give-purchase-button {
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+
+[id*=give-form] div.give-form-content-wrap .blog-list {
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+
+#content [id*=give-form] div.give-form-content-wrap .blog-list {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+[id*=give-form] div.give-form-content-wrap .blog-list li {
+    padding-left: 40px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+[id*=give-form] div.give-form-content-wrap .blog-list li:before {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #db4242;
+}
+
+.sigma-shortcode-wrapper.sigma_give_donation_wrapper.donation-style-6 .slick-slider .slick-slide {
+    transform: scale(0.8);
+}
+
+.sigma-shortcode-wrapper.sigma_give_donation_wrapper.donation-style-6 .slick-slider .slick-slide.slick-current {
+    transform: scale(1);
+}
+
+.sigma-shortcode-wrapper.sigma_give_donation_wrapper.donation-style-6 .slick-slider .slick-slide.slick-current+.slick-slide {
+    transform-origin: left;
+}
+
+.sigma-shortcode-wrapper.sigma_give_donation_wrapper.donation-style-6 .slick-slider .slick-slide {
+    transform-origin: right;
+}
+
+/*============ Responsive ===============*/
+
+[id*=give-form].give-form .sigma_single-donation-content-wrapper {
+    float: none;
+    width: 100%;
+}
+
+[id*=give-form].sigma_donation-details fieldset#give-payment-mode-select {
+    width: 100%;
+    float: none;
+    margin-top: 30px;
+}
+
+@media(max-width: 480px) {
+    #content form[id*=give-form] #give-final-total-wrap .give-donation-total-label,
+    .sigma_donation-details form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #content form[id*=give-form] #give-final-total-wrap .give-final-total-amount,
+    .sigma_donation-details form[id*=give-form] #give-final-total-wrap .give-final-total-amount {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+@media(max-width: 400px) {
+    .sigma-donation-style-1 .sigma_donation-body .signa_donation-collection {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
